@@ -23,7 +23,7 @@ export const getFavicons = async ({
   try {
     // Perform the fetch request with optional headers and redirection follow
     const requestHeaders = new Headers(headers);
-    requestHeaders.set('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8');
+    requestHeaders.set('Accept', 'text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.8');
     requestHeaders.set('Accept-Language', 'en-US,en;q=0.5');
     requestHeaders.set('Accept-Encoding', 'gzip, deflate');
     requestHeaders.set('User-Agent', 'Mozilla/5.0 (compatible; FaviconBot/1.0)');
